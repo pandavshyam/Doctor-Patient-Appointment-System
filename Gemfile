@@ -36,6 +36,12 @@ gem "bootsnap", require: false
 # Use Sass to process CSS
 # gem "sassc-rails"
 
+# A runtime developer console and IRB alternative with powerful introspection capabilities.
+gem 'pry', '~> 0.14.1'
+
+# Flexible authentication solution for Rails with Warden.
+gem 'devise', '~> 4.8', '>= 4.8.1'
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
